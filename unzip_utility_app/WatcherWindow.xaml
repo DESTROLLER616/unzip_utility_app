@@ -1,0 +1,15 @@
+﻿<Window x:Class="unzip_utility_app.WatcherWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:unzip_utility_app"
+        mc:Ignorable="d"
+        Title="WatcherWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Regresar" HorizontalAlignment="Left" Margin="18,367,0,0" VerticalAlignment="Top" Width="197" Height="49"/>
+        <Button Content="Parar utilidad" HorizontalAlignment="Left" Margin="585,367,0,0" VerticalAlignment="Top" Width="197" Height="49"/>
+        <Label Content="Label" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top" Width="142" AutomationProperties.Name="stateLabel" x:Name="stateLabel" Loaded="stateLabel_Loaded"/>
+
+    </Grid>
+</Window>

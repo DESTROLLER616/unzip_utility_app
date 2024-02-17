@@ -1,0 +1,17 @@
+﻿<Window x:Class="unzip_utility_app.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:unzip_utility_app"
+        mc:Ignorable="d"
+        Title="Pantalla de ajustes" Height="450" Width="800">
+    <Grid>
+        <Button Content="Atras" HorizontalAlignment="Left" Margin="10,374,0,0" VerticalAlignment="Top" Width="194" Height="50" x:Name="backButton" Click="backButton_Click"/>
+        <Label Content="Observador de archivos" HorizontalAlignment="Left" Margin="41,33,0,0" VerticalAlignment="Top"/>
+        <Button Content="Establecer" HorizontalAlignment="Left" Margin="23,64,0,0" VerticalAlignment="Top" Width="194" Height="50" x:Name="watcherFilesButton"/>
+        <Label Content="Ruta de descompresion de archivos" HorizontalAlignment="Left" Margin="591,33,0,0" VerticalAlignment="Top"/>
+        <Button Content="Establecer" HorizontalAlignment="Left" Margin="573,64,0,0" VerticalAlignment="Top" Width="194" Height="50" x:Name="UncompressPathButton"/>
+
+    </Grid>
+</Window>
